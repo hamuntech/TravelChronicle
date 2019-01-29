@@ -47,8 +47,8 @@ class DestinationPhotosTableViewController: UITableViewController, UINavigationC
         let userDefaultsHue: Any? = UserDefaults.standard.object(forKey: "userDestinationsTableHue")
         let userDefaultsSaturation: Any? = UserDefaults.standard.object(forKey: "userDestinationsTableSaturation")
         
-        hueColorForTable = userDefaultsHue as! CGFloat
-        saturationColorForTable = userDefaultsSaturation as! CGFloat
+        hueColorForTable = userDefaultsHue as? CGFloat
+        saturationColorForTable = userDefaultsSaturation as? CGFloat
         
 
     }

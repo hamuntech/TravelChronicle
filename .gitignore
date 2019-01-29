@@ -1,1 +1,5 @@
 .DS_Store
+*.xcodeproj
+TravelChronicle/Assets.xcassets/
+TravelChronicle/Base.lproj/
+assets/
